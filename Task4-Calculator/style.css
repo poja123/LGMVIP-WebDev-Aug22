@@ -1,0 +1,157 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body
+{
+    margin-top: 25px;
+    background-color: #ecf0f3;
+}
+input
+{
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffff,
+                inset 5px 5px 12px rgba(0, 0, 0, .16);
+    text-align: end;
+    font-size: larger;
+}
+.container
+{
+    border: none;
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffff,
+                      5px  5px 12px rgba(0, 0, 0, .16);
+    padding-bottom: 15px;
+}
+#screen
+{
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 345px;
+    height: 100px;
+    font-size: 60px;
+    padding: 10px;
+}
+.digittable
+{
+    margin: auto;
+    margin-top:10px;
+
+}
+button
+{
+    border: none;
+    width: 70px;
+    padding: 15px;
+    font-size:25px;
+    background-color:#A66CFF;
+    border-radius: 12px;
+}
+button#diff
+{
+    background-color:darkgray;
+
+
+    
+
+}
+button#clr
+{
+    background-color:crimson;
+    box-shadow: none;
+    padding-left: 10px;
+}
+button#del
+{
+    background-color: coral;
+    box-shadow: none;
+    padding-left: 12px;
+}
+button#plus
+{
+    background-color: #0096FF;
+    color: azure;
+    font-size: larger;
+}
+
+button:active
+{
+    background-color: bisque;
+}
+button#diff:active,button#equal:active
+{
+    background-color: bisque;
+
+}
+
+button:hover,button#div:hover,button#plus:hover,button#del:hover,button#clr:hover
+{
+    box-shadow:  5px 5px 12px rgba(0, 0, 0, .16);
+    transform: translateY(-1px);
+}
+
+button#equal
+{
+    background-color:dodgerblue;
+}
+
+/*
+    <!-- HTML !-->
+<button class="button-5" role="button">Button 5</button>
+
+   /* CSS 
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+    */
+
+
+
